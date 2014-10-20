@@ -21,7 +21,7 @@ public class Menu
 		this.game = game;
 
 		// create font
-		PFont font = game.loadFont("../fonts/Calibri-20.vlw");
+		PFont font = game.loadFont("fonts/Calibri-20.vlw");
 		game.textFont(font, this.c_fontSize);
 
 		int line = 130;

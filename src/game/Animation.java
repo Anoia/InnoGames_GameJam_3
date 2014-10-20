@@ -77,7 +77,7 @@ public class Animation
 
 	PImage load(String res)
 	{
-		return this.game.loadImage("../images/" + res);
+		return this.game.loadImage("images/" + res);
 	}
 
 	public PImage get(int resId)

@@ -16,7 +16,7 @@ public class MapLoader
 	{
 		Tile[][] map = new Tile[s][s];
 
-		PImage mapImg = this.pa.loadImage("../maps/map04.png");
+		PImage mapImg = this.pa.loadImage("maps/map04.png");
 		mapImg.loadPixels();
 
 		int[] pixels = mapImg.pixels;

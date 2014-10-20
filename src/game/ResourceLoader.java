@@ -35,35 +35,35 @@ public class ResourceLoader
 	public static void loadTiles(PApplet pa)
 	{
 		// backgrounds
-		desertImg = pa.loadImage("../images/desert.png");
-		grasImg = pa.loadImage("../images/bluemchen.png");
-		snowImg = pa.loadImage("../images/snow.png");
-		waterImg = pa.loadImage("../images/water.png");
-		bridgeImg = pa.loadImage("../images/bridge.png");
+		desertImg = pa.loadImage("images/desert.png");
+		grasImg = pa.loadImage("images/bluemchen.png");
+		snowImg = pa.loadImage("images/snow.png");
+		waterImg = pa.loadImage("images/water.png");
+		bridgeImg = pa.loadImage("images/bridge.png");
 
 		// foregrounds
-		stoneImg = pa.loadImage("../images/stone_nobg.png");
-		woodImg = pa.loadImage("../images/wood_nobg.png");
+		stoneImg = pa.loadImage("images/stone_nobg.png");
+		woodImg = pa.loadImage("images/wood_nobg.png");
 
-		bedrock = pa.loadImage("../images/bedrock_nobg.png");
+		bedrock = pa.loadImage("images/bedrock_nobg.png");
 
-		berryEmptyImg = pa.loadImage("../images/berry_empty_idle1.png");
-		berryFullImg = pa.loadImage("../images/berry_full_idle1.png");
+		berryEmptyImg = pa.loadImage("images/berry_empty_idle1.png");
+		berryFullImg = pa.loadImage("images/berry_full_idle1.png");
 
 		// other
-		playerImg = pa.loadImage("../images/player.png");
+		playerImg = pa.loadImage("images/player.png");
 
-		menubackgroundImg = pa.loadImage("../images/menubackground2.png");
+		menubackgroundImg = pa.loadImage("images/menubackground2.png");
 
-		chestImg = pa.loadImage("../images/chest.png");
+		chestImg = pa.loadImage("images/chest.png");
 
-		enemyImg = pa.loadImage("../images/enemy.png");
+		enemyImg = pa.loadImage("images/enemy.png");
 
-		houseImg = pa.loadImage("../images/house.png");
+		houseImg = pa.loadImage("images/house.png");
 
-		explosionImg = pa.loadImage("../images/explosion1.png");
-		heartImg = pa.loadImage("../images/heart.png");
-		heartEmptyImg = pa.loadImage("../images/heart_broken.png");
+		explosionImg = pa.loadImage("images/explosion1.png");
+		heartImg = pa.loadImage("images/heart.png");
+		heartEmptyImg = pa.loadImage("images/heart_broken.png");
 	}
 
 	public static PImage getImg(int imgType)

@@ -75,7 +75,7 @@ public class Game extends PApplet
 	{
 		if (this.player.health <= 0)
 		{
-			PFont font = this.loadFont("../fonts/Calibri-20.vlw");
+			PFont font = this.loadFont("fonts/Calibri-20.vlw");
 			this.textFont(font, 40);
 			this.stroke(255, 0, 0);
 			this.fill(0, 0, 0);
