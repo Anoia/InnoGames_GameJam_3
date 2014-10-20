@@ -1,0 +1,30 @@
+brücke 0xff880015
+schnee 0xffffffff
+gras 0xff00ff00
+water 0xff0000ff
+sand 0xfffff25f
+
+
+baum auf gras:  0xff683c11
+baum auf sand: 0xffa3810a
+//baum auf schnee:
+
+stein auf gras: 0xff818181
+stein auf sand: 0xffffc90e
+//stein auf schnee: 
+stein auf wasser: 0xff99d9ea
+
+
+
+
+
+fels auf gras: 0xff3d322d
+fels auf sand: 0xffc4a260
+fels auf schnee: 0xff000000
+fels auf wasser: 0xff3b3b3b
+
+
+
+
+
+truhe: 0xffff0000
